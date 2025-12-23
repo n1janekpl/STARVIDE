@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  color: white;
+
+  background: url("img/background.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.logo {
+  width: 180px;
+  margin-top: 40px;
+}
+
+h1 {
+  font-size: 48px;
+  margin: 10px 0;
+}
+
+.subtitle {
+  font-size: 18px;
+  opacity: 0.8;
+}
+
+.buttons {
+  margin: 30px 0;
+}
+
+button {
+  padding: 12px 25px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+button:hover {
+  opacity: 0.85;
+}
+
+.discord {
+  background-color: #5865F2;
+  color: white;
+}
+
+section {
+  background: rgba(0, 0, 0, 0.6);
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 10px;
+}
